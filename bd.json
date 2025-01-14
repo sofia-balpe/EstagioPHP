@@ -1,0 +1,24 @@
+{
+    "users": [
+        {
+            "username": "Sofia",
+            "email": "Sofia@gmail.com",
+            "password": "11111111"
+        },
+        {
+            "username": "Sofia Baldissera ",
+            "email": "Baldissera@gmail.com",
+            "password": "111111111"
+        },
+        {
+            "username": "toppp",
+            "email": "top@gmail.com",
+            "password": "111111111"
+        },
+        {
+            "username": "Sofia",
+            "email": "sofia@sofia.com",
+            "password": "$2y$10$BrpuFkMWW7qpfiPlAOwhnuInggtwuj5OwALd1jGcKgt.H0Ui\/OVKK"
+        }
+    ]
+}

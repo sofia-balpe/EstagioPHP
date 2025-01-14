@@ -1,7 +1,8 @@
-<?php 
+<?php
 session_start();
-$feedback = $_SESSION['feedback']?? false;
+$feedback = $_SESSION['feedback'] ?? false;
 unset($_SESSION['feedback']);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,15 +17,20 @@ unset($_SESSION['feedback']);
 <body>
 
     <div>
-        <?php 
-            if ($feedback != false) {
-                echo "<P> $feedback</p>";
+        <?php
+        if ($feedback != false) {
+            foreach ($feedback as $value) {
+                echo $value.'<br>'; 
             }
+        } else {
+            print 'Tudo certo';
+        }
+
         ?>
 
         <form action="index.php" method="post">
 
-            <input type="" placeholder="Nome de usuário" name="Username" required>
+            <input type="text" placeholder="Nome de usuário" name="Username" required>
             <input type="email" placeholder="Email de usuário" name="email" required>
             <input type="password" placeholder="Senha de usuário" name="password" required>
             <input type="submit" value="Enviar dados">

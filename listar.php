@@ -33,9 +33,12 @@ $bd = json_decode($bd);
                     echo "<td>" . $users->username ."</td>";
                     echo "<td>". $users->email ."</td>";
                     echo "<td> <a href='deleteUser.php?delete=$index'> delete</a> </td>";  
+                    echo "<td> <a href='updateUser.php?editar=$index'> editar</a> </td>";  
                 }
                 ?>
             </tbody>
+
+            <a href="user.php"> Voltar</a>
         </table>
     </div>
 

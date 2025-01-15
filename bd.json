@@ -1,24 +1,14 @@
 {
     "users": [
         {
-            "username": "Sofia",
-            "email": "Sofia@gmail.com",
-            "password": "11111111"
+            "username": "                Sofi",
+            "email": "sofia@sofia.sss",
+            "password": "$2y$10$bntBIwTrzzHtdgozXwldnu4jaQ3.GYc8MRoWdjBe0FrGG9nbpnD0K"
         },
         {
-            "username": "Sofia Baldissera ",
-            "email": "Baldissera@gmail.com",
-            "password": "111111111"
-        },
-        {
-            "username": "toppp",
+            "username": "topdostops",
             "email": "top@gmail.com",
-            "password": "111111111"
-        },
-        {
-            "username": "Sofia",
-            "email": "sofia@sofia.com",
-            "password": "$2y$10$BrpuFkMWW7qpfiPlAOwhnuInggtwuj5OwALd1jGcKgt.H0Ui\/OVKK"
+            "password": "$2y$10$z5d2UgWGzpTc2Spt18RR9e4mO\/AdVgfCVhU.WPJi9PTFM4w3XSr6u"
         }
     ]
 }

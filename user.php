@@ -23,7 +23,7 @@ unset($_SESSION['sucess']);
 
     <div>
 
-        <div id="divErros" style="color: red">
+        <div id="divErros">
             <?php
             if ($feedback != false)
                 foreach ($feedback as $value) {
@@ -31,7 +31,7 @@ unset($_SESSION['sucess']);
 
                 }
             ?>
-           <div id="divSucess" style="color: green">
+           <div id="divSucess">
             <?php
             if ($sucess != false) {
                 echo $sucess;
@@ -51,12 +51,14 @@ unset($_SESSION['sucess']);
             <input type="email" id="idEmail" placeholder="Email de usuário" name="email" required> <br>
             <img src="iconKey.png" alt="imagem icon chave">
             <input type="password" id="idSenha" placeholder="Senha de usuário" name="password" required><br>
-            <input type="submit" value="Enviar dados" id="idSubmit" onclick="event">
-            <a href="listar.php"> Listar</a>
+            <input type="submit" value="Enviar dados" id="idSubmit" onclick="event"> <br> <br>
+            
+            <a id="inputListar" href="listar.php"> Listar</a>
+<br> <br>
         </form>
 
     </div>
-
+    <br>
     <!-- <script>
         function clicar(params) {
             

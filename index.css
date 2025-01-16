@@ -2,9 +2,11 @@
     font-family: cursive;
     text-align: center;
     border: 1px solid red;
+    color: red;
 }
 #divSucess{
     border: 1px solid green;
+    color: green;
 }
 #idForm{
     background-color: rgb(233, 237, 197);
@@ -23,6 +25,8 @@
     cursor: pointer;
     border-radius: 5px;
     background-color: rgb(246, 246, 213);
+    font-family:Optima;
+    font-size: 17px;
 }
 #idUser{
     padding: 5px 30px;
@@ -47,4 +51,15 @@
 #idh1{
 
     color: rgba(0, 0, 0, 0.641);
+}
+#inputListar{
+    
+    padding: 5px 20px;
+    border: 1px solid rgb(255, 181, 23);
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(246, 246, 213);
+    color: black;
+    font-family:Optima;
+    font-size: 17px;
 }

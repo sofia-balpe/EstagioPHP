@@ -11,10 +11,10 @@ if(!isset($bd->users[$delete])) {
     header('location: listar.php');
     exit();
 }
+// var_dump($bd->users, $delete);
 
-$newList = array_splice($bd->users, $delete,0);
-
-//exit();
+$newList = array_splice($bd->users, $delete, 1 );
+// exit();
 $bd->users = $newList;
 
 $bd->users = file_put_contents("bd.json", json_encode($bd, JSON_PRETTY_PRINT));

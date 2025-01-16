@@ -44,8 +44,4 @@ $_SESSION['sucess'] = "User att";
 
 header('Location: listar.php ');
 
-
-
-
-
 ?>

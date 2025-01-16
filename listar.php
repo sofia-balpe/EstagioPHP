@@ -1,6 +1,11 @@
 <?php
-$bd = file_get_contents("bd.json");
-$bd = json_decode($bd);
+include("banco.php");
+use App\banco;
+// $bd = file_get_contents("bd.json");
+// $bd = json_decode($bd);
+$banco = new banco() ;
+
+$usersData = $banco->getUsersData() ;
 ?>
 
 <!DOCTYPE html>
@@ -29,7 +34,7 @@ $bd = json_decode($bd);
 
             <tbody>
                 <?php
-                foreach ($bd->users as $index => $users) {
+                foreach ($usersData as $index => $users) {
                     echo "<tr>";
                     echo "<td>" . $index . "</td>";
                     echo "<td>" . $users->username . "</td>";

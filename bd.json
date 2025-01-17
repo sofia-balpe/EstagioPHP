@@ -5,5 +5,47 @@
             "email": "Sofia@gmail.com",
             "password": "111111111"
         }
+    ],
+    "clientes": [
+        {
+            "name": "Sofia",
+            "cpf": "12345678910",
+            "endereco": "aaaaaaaaaaaa"
+        },
+        {
+            "name": "Sofia",
+            "cpf": "12345678910",
+            "endereco": "aaaaaaaaaaaa"
+        },
+        {
+            "name": "asdasd",
+            "cpf": "asdasd",
+            "endereco": "asdsadsadsad"
+        },
+        {
+            "name": "Sofia",
+            "cpf": "12345678910",
+            "endereco": "aaaaaaaaaaaa"
+        },
+        {
+            "name": "Sofia",
+            "cpf": "00000000000",
+            "endereco": "aaaaaaaaaaaa"
+        },
+        {
+            "name": "Sofia",
+            "cpf": "12345678910",
+            "endereco": "aaaaaaaaaaaa@"
+        },
+        {
+            "name": "Sofia",
+            "cpf": "12345678910",
+            "endereco": "aaaaaaaaaaaa@"
+        },
+        {
+            "name": "Sofia",
+            "cpf": "12345678910",
+            "endereco": "aaaaaaaaaaaa@"
+        }
     ]
 }

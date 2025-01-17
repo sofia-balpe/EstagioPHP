@@ -1,11 +1,21 @@
 <?php
 session_start();
+
+include("banco.php");
+use App\banco;
+$banco = new banco() ;
+
+$usersData = $banco->createUser() ;
+
 $erros = [];
 $password = $_POST["password"];
 $username = $_POST["Username"];
 $email = $_POST["email"];
 
-
+//o service trabalha com a política dos códigos
+//O controler direciona cada coisa para os services
+//createdAt -> primeiro registro com a empresa
+//timestemp mostra a data em segundos
 
 //validar username
 if (strlen($username) < 5) {
